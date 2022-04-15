@@ -1,8 +1,10 @@
+import {Title} from '../components';
+
 
 export default function Home(): JSX.Element {
 	return (
 		<div>
-			Create Project
+			<Title tag='h1'>Lox</Title>
 		</div>
 	);
 }
